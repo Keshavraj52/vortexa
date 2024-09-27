@@ -1,0 +1,53 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.17.4"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@pinata/sdk": "^2.1.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^10.0.2",
+    "assert": "^2.1.0",
+    "axios": "^1.7.7",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "ethers": "^5.7.2",
+    "express": "^4.21.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "https-browserify": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "solidity-coverage": "^0.8.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "ts-node": "^10.9.1",
+    "tty-browserify": "^0.0.1",
+    "typechain": "^8.1.0",
+    "typescript": "^5.2.2",
+    "url": "^0.11.4",
+    "web3": "^4.13.0"
+  },
+  "name": "dgdrive3.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch db.json --port 4000"
+  },
+  "author": "",
+  "license": "ISC"
+}

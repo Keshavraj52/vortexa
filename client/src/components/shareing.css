@@ -1,0 +1,62 @@
+.file-share-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .share-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .share-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .share-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .share-button:hover {
+    background-color: #45a049;
+  }
+  
+  .status-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .shared-file-link {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+  }
+  
+  .shared-file-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .shared-file-link a:hover {
+    text-decoration: underline;
+  }
+  
